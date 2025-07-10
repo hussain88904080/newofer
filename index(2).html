@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ভিডিও দেখুন</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff0f5, #ffe6f0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .video-container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h2 {
+      color: #d63384;
+      margin-bottom: 20px;
+    }
+
+    .progress {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 15px 0;
+      color: #b30059;
+    }
+
+    .fake-video {
+      background-color: #ffe6f2;
+      border: 2px dashed #ff99cc;
+      border-radius: 10px;
+      padding: 30px;
+      font-size: 16px;
+      color: #800040;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #ff3399;
+      color: white;
+      padding: 14px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background 0.3s;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #cc0066;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-container">
+    <h2>🎬 ভিডিও দেখুন</h2>
+    <div class="progress">ভিডিও দেখা বাকি: ২০ / ২০</div>
+
+    <div class="fake-video">
+      🔁 ভিডিও চলছে...<br>
+      (এখানে ভিডিও এম্বেড করা যায় বা টাইম কাউন্টও ডেভেলপ করা যায় পরে)
+    </div>
+
+    <a class="btn" href="claim.html">🎁 গিফট ক্লেইম নাও</a>
+  </div>
+
+</body>
+</html>
